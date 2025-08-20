@@ -13,7 +13,7 @@ export default async function SignIn() {
       >
         <button
           type="submit"
-          className="cursor-pointer bg-gray-950 border-1 border-gray-600 rounded-sm px-2 py-1 text-sm"
+          className="cursor-pointer rounded-sm px-2 py-1 text-sm"
         >
           Sign in with Google
         </button>
@@ -30,7 +30,7 @@ export default async function SignIn() {
     >
       <button
         type="submit"
-        className="cursor-pointer bg-gray-950 border-1 border-gray-600 rounded-sm px-2 py-1 text-sm"
+        className="cursor-pointer rounded-sm px-2 py-1 text-sm"
       >
         Sign Out
       </button>
