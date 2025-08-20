@@ -8,6 +8,14 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 
+// ---------- Extend the module to include custom meta properties ----------
+declare module "@tanstack/react-table" {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  interface ColumnMeta<TData, TValue> {
+    numeric?: boolean;
+  }
+}
+
 // ---------- Types ----------
 type VideoRow = {
   title: string;
