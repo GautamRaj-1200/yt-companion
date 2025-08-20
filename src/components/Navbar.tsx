@@ -17,7 +17,7 @@ const Navbar = async () => {
           {session?.user ? (
             <>
               <li>
-                <Link href="/profile" className="flex gap-2 items-center">
+                <Link href="/" className="flex gap-2 items-center">
                   <span>{session?.user?.name}</span>
                   <Image
                     src={session?.user?.image || ""}
